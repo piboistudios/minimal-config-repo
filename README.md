@@ -9,6 +9,7 @@ Building in development mode yields unpredictable output results when using a co
 Steps to reproduce:
 - Build in production mode `npm run build`
   - You should now have two directories outside of this directory, Views\App and Content. Views\App is where ASP.NET will look for the CSHTML file. Content is the directory ASP.NET exposes publicly for content delivery.
+  Content has an img, js and css folder with appropriate content with content hashed names.
 - Build in development mode `npm run dev-build`
   - You will not have the same thing as above. In my particular case (using vue CLI 3.1.1), I get:
     - Views\App:
