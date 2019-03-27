@@ -19,6 +19,7 @@ Steps to reproduce:
     - Content:
         - img\
             - logo.png - Has content hash
+  - The CSS is not produced at all.
 
 
 
